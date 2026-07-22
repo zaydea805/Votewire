@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Votewire</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#262220; --ink-soft:#6B6152; --board:#DFD5B0; --board-line:#c9bd91;
+    --card:#FFFDF6; --card-edge:#E8E1CC; --red:#C8432A;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0; color:var(--ink); font-family:'Lora', serif; background:var(--board); -webkit-font-smoothing:antialiased;}
+  h1,h2{font-family:'Bricolage Grotesque', sans-serif; font-weight:700; margin:0 0 10px;}
+  a{color:var(--red);}
+  .mono{font-family:'IBM Plex Mono',monospace;}
+  .wrap{max-width:680px; margin:0 auto; padding:0 24px;}
+  nav{position:sticky; top:0; background:rgba(223,213,176,0.92); backdrop-filter:blur(4px); border-bottom:1px solid var(--board-line);}
+  .nav-inner{max-width:680px; margin:0 auto; padding:16px 24px; display:flex; justify-content:space-between; align-items:center;}
+  .brand{display:flex; align-items:center; gap:9px; font-family:'Bricolage Grotesque',sans-serif; font-weight:800; font-size:18px; text-decoration:none; color:var(--ink);}
+  .pin{width:12px; height:12px; border-radius:50%; background:var(--red);}
+  .nav-links{display:flex; gap:18px; font-family:'IBM Plex Mono',monospace; font-size:12.5px;}
+  .nav-links a{text-decoration:none; color:var(--ink-soft);}
+  main{padding:48px 0 60px;}
+  .card{background:var(--card); border:1px solid var(--card-edge); padding:36px; box-shadow:2px 4px 0 rgba(0,0,0,0.06); transform:rotate(-0.4deg);}
+  h1{font-size:26px;}
+  p{font-size:15px; line-height:1.75; color:var(--ink); margin-bottom:18px;}
+  footer{border-top:1px solid var(--board-line); padding:24px 0; font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--ink-soft); text-align:center;}
+</style>
+</head>
+<body>
+<nav><div class="nav-inner">
+  <a href="index.html" class="brand"><div class="pin"></div>Votewire</a>
+  <div class="nav-links"><a href="about.html">About</a><a href="terms.html">Terms</a><a href="privacy.html">Privacy</a></div>
+</div></nav>
+
+<main class="wrap">
+  <div class="card">
+    <h1>Why this exists</h1>
+    <p>Every group chat eventually hits the same wall: someone has to decide something, five people say "idc, whatever you want," and somehow it still takes twenty minutes to actually land on an answer.</p>
+    <p>Votewire is just a faster way through that. Type the question, share a code, and the actual answer shows up as votes come in instead of everyone just... vibing until someone gets tired of waiting.</p>
+    <p>There's no account to make. There's nothing to remember. It's meant to be the kind of tool you use once, forget exists, and then reach for again the next time the same argument starts.</p>
+    <p>It's built and maintained by one person, kept running by a little bit of advertising and an optional Pro tier for anyone using it for more than a group chat. If something's broken or missing, that's genuinely useful to hear.</p>
+  </div>
+</main>
+
+<footer class="wrap">Votewire</footer>
+</body>
+</html>
