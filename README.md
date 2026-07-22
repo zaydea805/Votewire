@@ -1,94 +1,55 @@
 # Votewire
 
-**Pin a question. Watch the votes stack up.**
+Pin a question, share a code, watch the votes come in.
 
-Votewire is a no-login, share-a-code polling tool for group chats. Type a question, share the code, and watch votes roll in live — no accounts, no setup, no friction.
+https://votewire.vercel.app/
 
-🔗 **Live app:** [votewire.vercel.app](https://votewire.vercel.app/)
+## What it is
 
----
+A polling tool for group chats. No accounts, no sign-in, nothing to set up. You type a question, add some options, and get a code back. Send the code to whoever, they vote, the tally updates as it happens.
 
-## Why
-
-Every group chat hits the same wall eventually: someone has to decide something, everyone says "idc, whatever you want," and it still somehow takes twenty minutes to land on an answer. Votewire is a faster way through that — post the question, share a code, and let the tally speak instead of five people saying "idc" at once.
-
-## Features
-
-- 📌 **Pin a poll** — write a question, add options, get a shareable code
-- 🗳️ **Live results** — the tally updates in real time as votes come in
-- 🔓 **No sign-in required** — for the poll creator or the voters
-- 🔗 **Share by code** — anyone with the code can open and vote on the poll
-- 🚀 **Zero setup** — no accounts, nothing to remember
+Made for the "idc, whatever you want" problem — where everyone in the group chat is fine with anything and somehow it still takes twenty minutes to decide.
 
 ## How it works
 
-1. **Create a poll** — enter your question and add as many options as you need
-2. **Pin it** — get a unique poll code
-3. **Share the code** — drop it in a group chat, DM, wherever
-4. **Watch it fill in** — votes tally live as people respond
+1. Write your question and add options
+2. Pin it — you get a short code
+3. Send the code to people
+4. Watch the votes come in live, no refreshing needed
 
-## Getting Started
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) (v18+ recommended)
-- npm / pnpm / yarn
-
-### Installation
+## Running it locally
 
 ```bash
-git clone https://github.com/<your-username>/votewire.git
+git clone https://github.com/zaydea805/votewire.git
 cd votewire
 npm install
-```
-
-### Development
-
-```bash
 npm run dev
 ```
 
-The app will be available at `http://localhost:3000`.
+Runs on `http://localhost:3000`.
 
-### Build
+To build for production:
 
 ```bash
 npm run build
 npm start
 ```
 
-## Deployment
+## Deploying
 
-Votewire is built for [Vercel](https://vercel.com/):
-
-```bash
-vercel deploy
-```
+It's set up for Vercel — `vercel deploy` and you're done.
 
 ## Pages
 
-| Page | Description |
-|------|--------------|
-| `/` | Home — create or open a poll |
-| `/about.html` | About Votewire |
-| `/terms.html` | Terms of use |
-| `/privacy.html` | Privacy policy |
-
-## Roadmap / Ideas
-
-- [ ] Poll result export
-- [ ] Custom expiration for polls
-- [ ] Vote change / undo
-- [ ] Pro tier features
+- `/` — create or open a poll
+- `/about.html` — about
+- `/terms.html`
+- `/privacy.html`
 
 ## Contributing
 
-Issues and pull requests are welcome. If something's broken or missing, opening an issue is genuinely useful.
+Open an issue if something's broken. PRs welcome too.
 
 ## License
 
-Add your license here (e.g. MIT).
-
----
-
-Built and maintained by one person, kept running by a little advertising and an optional Pro tier.
+MIT — see [LICENSE](./LICENSE)
