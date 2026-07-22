@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terms of Service — Votewire</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#262220; --ink-soft:#6B6152; --board:#DFD5B0; --board-line:#c9bd91;
+    --card:#FFFDF6; --card-edge:#E8E1CC; --red:#C8432A;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0; color:var(--ink); font-family:'Lora', serif; background:var(--board); -webkit-font-smoothing:antialiased;}
+  h1,h2{font-family:'Bricolage Grotesque', sans-serif; font-weight:700; margin:0 0 10px;}
+  a{color:var(--red);}
+  .mono{font-family:'IBM Plex Mono',monospace;}
+  .wrap{max-width:680px; margin:0 auto; padding:0 24px;}
+  nav{position:sticky; top:0; background:rgba(223,213,176,0.92); backdrop-filter:blur(4px); border-bottom:1px solid var(--board-line);}
+  .nav-inner{max-width:680px; margin:0 auto; padding:16px 24px; display:flex; justify-content:space-between; align-items:center;}
+  .brand{display:flex; align-items:center; gap:9px; font-family:'Bricolage Grotesque',sans-serif; font-weight:800; font-size:18px; text-decoration:none; color:var(--ink);}
+  .pin{width:12px; height:12px; border-radius:50%; background:var(--red);}
+  .nav-links{display:flex; gap:18px; font-family:'IBM Plex Mono',monospace; font-size:12.5px;}
+  .nav-links a{text-decoration:none; color:var(--ink-soft);}
+  main{padding:48px 0 60px;}
+  .card{background:var(--card); border:1px solid var(--card-edge); padding:36px; box-shadow:2px 4px 0 rgba(0,0,0,0.06);}
+  .updated{font-family:'IBM Plex Mono',monospace; font-size:11.5px; color:var(--ink-soft); margin-bottom:28px;}
+  section{margin-bottom:26px;}
+  h2{font-size:17px;}
+  p, li{font-size:14.5px; line-height:1.65; color:var(--ink);}
+  ul{padding-left:20px;}
+  .note{
+    background:#F1EADB; border-left:3px solid var(--red); padding:14px 16px; font-family:'IBM Plex Mono',monospace;
+    font-size:12px; color:var(--ink-soft); margin-top:34px; line-height:1.6;
+  }
+  footer{border-top:1px solid var(--board-line); padding:24px 0; font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--ink-soft); text-align:center;}
+</style>
+</head>
+<body>
+<nav><div class="nav-inner">
+  <a href="index.html" class="brand"><div class="pin"></div>Votewire</a>
+  <div class="nav-links"><a href="about.html">About</a><a href="terms.html">Terms</a><a href="privacy.html">Privacy</a></div>
+</div></nav>
+
+<main class="wrap">
+  <div class="card">
+    <h1>Terms of Service</h1>
+    <div class="updated">Last updated: July 22, 2026</div>
+
+    <section>
+      <h2>The short version</h2>
+      <p>Votewire is a free tool for making quick polls. Use it to ask real questions and get real answers — not to spam, harass, or break the law. We can remove content or access that violates that.</p>
+    </section>
+
+    <section>
+      <h2>No accounts, no guarantees on poll permanence</h2>
+      <p>Votewire doesn't require sign-up. Because of that, there's no login recovery, no "my polls" dashboard, and no guarantee a specific poll code will be preserved forever. Keep your own copy of anything important.</p>
+    </section>
+
+    <section>
+      <h2>Acceptable use</h2>
+      <p>Don't use Votewire to:</p>
+      <ul>
+        <li>Post illegal content, or content that harasses, threatens, or defames someone</li>
+        <li>Spam, phish, or attempt to collect personal information from voters</li>
+        <li>Attempt to disrupt, overload, or reverse-engineer the service</li>
+      </ul>
+      <p>We may remove polls or restrict access for violations of this at our discretion.</p>
+    </section>
+
+    <section>
+      <h2>Votewire Pro</h2>
+      <p>Pro is a paid subscription ($5/month at time of writing) that adds password-protected polls, CSV export, and an ad-free experience. Subscriptions are billed and processed through Stripe and can be canceled at any time; canceling stops future billing but doesn't retroactively refund the current period unless otherwise stated at checkout.</p>
+    </section>
+
+    <section>
+      <h2>No warranty</h2>
+      <p>Votewire is provided "as is," without warranties of any kind. We do our best to keep it running and accurate, but we're not liable for lost polls, downtime, or decisions made based on poll results.</p>
+    </section>
+
+    <section>
+      <h2>Changes</h2>
+      <p>These terms may be updated as the product changes. Continued use after an update means you accept the new terms.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p><span class="mono">hello@yourdomain.com</span> (swap in your real contact address).</p>
+    </section>
+
+    <div class="note">This is a starting draft, not a substitute for legal advice — have it reviewed before relying on it commercially, especially once Pro payments go live.</div>
+  </div>
+</main>
+
+<footer class="wrap">Votewire</footer>
+</body>
+</html>
